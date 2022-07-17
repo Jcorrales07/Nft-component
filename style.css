@@ -30,7 +30,7 @@ body {
 .container {
     width: 37.5rem; /* para movil */
     border-radius: 3rem;
-    margin: 5rem auto;
+    margin: 10rem auto;
     padding: 2.5rem;
     background-color: var(--card-bg-color);
 }
@@ -41,10 +41,22 @@ body {
     margin-bottom: var(--margin-bottom);
 }
 
+.ntf-image:hover {
+    cursor: pointer;
+    background-image: url(./images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .ntf-title {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: var(--margin-bottom);
+}
+
+.ntf-title:hover {
+    color: var(--cyan);
+    cursor: pointer;
 }
 
 .ntf-description {
