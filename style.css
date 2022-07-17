@@ -22,4 +22,21 @@ html {
 
 body {
     font-size: 1.8rem;
+    background-color: var(--main-bg-color);
+    color: var(--white); /* temporal */
 }
+
+.container {
+    /* width: 37.5rem; no se si lo ocupa aun */
+    border-radius: 3rem;
+    margin: 5rem auto;
+    padding: 2.5rem;
+    background-color: var(--card-bg-color);
+}
+
+.ntf-image {
+    width: 100%;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
