@@ -4,7 +4,7 @@
     
     --main-bg-color: hsl(217, 54%, 11%);
     --card-bg-color: hsl(216, 50%, 16%);
-    --br-color: hsl(215, 32%, 27%);
+    --hr-color: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
     
     --margin-bottom: 2rem;
@@ -24,7 +24,7 @@ html {
 body {
     font-size: 1.8rem;
     background-color: var(--main-bg-color);
-    color: var(--white); /* temporal */
+    color: var(--white); 
 }
 
 .container {
@@ -56,22 +56,22 @@ body {
 
 .price,
 .daysleft {
+    margin-left: 1rem;
     display: inline-block;
 }
 
 .price {
-    margin-left: 0.5rem;
     color: var(--cyan);
 }
 
 .daysleft {
-    margin-left: 0.5rem;
     color: var(--soft-blue);
 }
 
 .price-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: var(--margin-bottom);
 }
 
 .price-container div {
@@ -79,3 +79,24 @@ body {
     align-items: center;
 }
 
+.separator {
+    border: 0.02rem solid var(--hr-color);
+    margin-bottom: var(--margin-bottom);
+}
+
+.artist-avatar {
+    width: 14%;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-right: 1.5rem;
+}
+
+.artist-container div {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.artist-container .artist-name span {
+    color: var(--soft-blue);
+}
