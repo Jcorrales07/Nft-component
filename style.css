@@ -7,6 +7,7 @@
     --br-color: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
     
+    --margin-bottom: 2rem;
 }
 
 * {
@@ -27,7 +28,7 @@ body {
 }
 
 .container {
-    /* width: 37.5rem; no se si lo ocupa aun */
+    width: 37.5rem; /* para movil */
     border-radius: 3rem;
     margin: 5rem auto;
     padding: 2.5rem;
@@ -36,7 +37,45 @@ body {
 
 .ntf-image {
     width: 100%;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
+    border-radius: var(--margin-bottom);
+    margin-bottom: var(--margin-bottom);
+}
+
+.ntf-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: var(--margin-bottom);
+}
+
+.ntf-description {
+    
+    font-weight: 300;
+    margin-bottom: var(--margin-bottom);
+    color: var(--soft-blue);
+}
+
+.price,
+.daysleft {
+    display: inline-block;
+}
+
+.price {
+    margin-left: 0.5rem;
+    color: var(--cyan);
+}
+
+.daysleft {
+    margin-left: 0.5rem;
+    color: var(--soft-blue);
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-container div {
+    display: flex;
+    align-items: center;
 }
 
