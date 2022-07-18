@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-    width: 37rem; /* para movil */
+    width: 32rem; /* para movil */
     border-radius: 3rem;
     margin: 10rem auto;
     padding: 2.5rem;
