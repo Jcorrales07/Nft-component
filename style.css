@@ -46,6 +46,7 @@ body {
     background-image: url(./images/icon-view.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 20px;
 }
 
 .ntf-title {
